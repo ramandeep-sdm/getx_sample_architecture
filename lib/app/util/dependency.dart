@@ -7,4 +7,5 @@ class DependencyCreator {
     Get.lazyPut(() => AuthenticationRepositoryIml());
     Get.lazyPut(() => ArticleRepositoryIml());
   }
+
 }
