@@ -1,6 +1,6 @@
 import 'dart:io';
-import 'package:getx_clean_architecture/data/models/paging_model.dart';
-import 'package:getx_clean_architecture/domain/repositories/article_repository.dart';
+import 'package:getapp/data/models/paging_model.dart';
+import 'package:getapp/domain/repositories/article_repository.dart';
 import 'dart:convert';
 
 class MockArticleRepository extends ArticleRepository {

@@ -6,9 +6,9 @@
 // tree, read text, and verify that the values of widget properties are correct.
 
 import 'package:flutter_test/flutter_test.dart';
-import 'package:getx_clean_architecture/domain/usecases/fetch_headline_use_case.dart';
-import 'package:getx_clean_architecture/domain/usecases/fetch_news_use_case.dart';
-import 'package:getx_clean_architecture/domain/usecases/signup_use_case.dart';
+import 'package:getapp/domain/usecases/fetch_headline_use_case.dart';
+import 'package:getapp/domain/usecases/fetch_news_use_case.dart';
+import 'package:getapp/domain/usecases/signup_use_case.dart';
 
 import 'package:tuple/tuple.dart';
 

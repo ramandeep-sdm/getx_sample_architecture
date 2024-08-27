@@ -1,7 +1,7 @@
 
-import 'package:getx_clean_architecture/data/providers/network/api_endpoint.dart';
-import 'package:getx_clean_architecture/data/providers/network/api_provider.dart';
-import 'package:getx_clean_architecture/data/providers/network/api_request_representable.dart';
+import 'package:getapp/data/providers/network/api_endpoint.dart';
+import 'package:getapp/data/providers/network/api_provider.dart';
+import 'package:getapp/data/providers/network/api_request_representable.dart';
 
 enum ArticleType { fetchHeadline, fetchNews }
 

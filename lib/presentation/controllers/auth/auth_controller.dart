@@ -1,7 +1,7 @@
 import 'package:get/get.dart';
-import 'package:getx_clean_architecture/app/services/local_storage.dart';
-import 'package:getx_clean_architecture/domain/entities/user.dart';
-import 'package:getx_clean_architecture/domain/usecases/signup_use_case.dart';
+import 'package:getapp/app/services/local_storage.dart';
+import 'package:getapp/domain/entities/user.dart';
+import 'package:getapp/domain/usecases/signup_use_case.dart';
 
 class AuthController extends GetxController {
   AuthController(this._loginUseCase);
@@ -14,7 +14,7 @@ class AuthController extends GetxController {
   @override
   void onInit() async {
     super.onInit();
-    isLoggedIn.value = store.user != null;
+    // isLoggedIn.value = store.user != null;
   }
 
   signUpWith(String username) async {

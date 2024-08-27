@@ -1,5 +1,5 @@
-import 'package:getx_clean_architecture/domain/entities/user.dart';
-import 'package:getx_clean_architecture/domain/repositories/auth_repository.dart';
+import 'package:getapp/domain/entities/user.dart';
+import 'package:getapp/domain/repositories/auth_repository.dart';
 
 class MockAuthenticationRepository extends AuthenticationRepository {
   @override

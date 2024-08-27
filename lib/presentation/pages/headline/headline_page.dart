@@ -1,8 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:get/get.dart';
-import 'package:getx_clean_architecture/presentation/controllers/headline/headline_controller.dart';
-import 'package:getx_clean_architecture/presentation/pages/detail/detail_page.dart';
-import 'package:getx_clean_architecture/presentation/pages/headline/views/article_cell.dart';
+import 'package:getapp/presentation/controllers/headline/headline_controller.dart';
+import 'package:getapp/presentation/pages/detail/detail_page.dart';
+import 'package:getapp/presentation/pages/headline/views/article_cell.dart';
 
 class HeadlinePage extends GetView<HeadlineController> {
   final _scrollController = ScrollController();

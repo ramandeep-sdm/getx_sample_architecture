@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:getx_clean_architecture/app/services/local_storage.dart';
-import 'package:getx_clean_architecture/app/util/dependency.dart';
-import 'package:getx_clean_architecture/presentation/app.dart';
+import 'package:getapp/app/services/local_storage.dart';
+import 'package:getapp/app/util/dependency.dart';
+import 'package:getapp/presentation/app.dart';
 
 void main() async {
   DependencyCreator.init();

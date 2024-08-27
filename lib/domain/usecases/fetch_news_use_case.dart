@@ -1,6 +1,6 @@
-import 'package:getx_clean_architecture/app/core/usecases/pram_usecase.dart';
-import 'package:getx_clean_architecture/domain/entities/paging.dart';
-import 'package:getx_clean_architecture/domain/repositories/article_repository.dart';
+import 'package:getapp/app/core/usecases/pram_usecase.dart';
+import 'package:getapp/domain/entities/paging.dart';
+import 'package:getapp/domain/repositories/article_repository.dart';
 import 'package:tuple/tuple.dart';
 
 class FetchNewsUseCase extends ParamUseCase<Paging, Tuple3<String, int, int>> {
